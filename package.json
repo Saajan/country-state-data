@@ -1,0 +1,20 @@
+{
+  "name": "countries-states-db",
+  "version": "1.0.0",
+  "description": "*This Free database dose not guarantee for the complete list of world countries and respective states.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saajan/countries-states-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saajan/countries-states-db/issues"
+  },
+  "homepage": "https://github.com/Saajan/countries-states-db#readme"
+}
