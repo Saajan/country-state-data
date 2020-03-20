@@ -93,7 +93,7 @@
     {
       "id": 16,
       "shortName": "BS",
-      "name": "Bahamas The",
+      "name": "Bahamas",
       "phoneCode": 1242
     },
     {
@@ -1191,7 +1191,7 @@
     {
       "id": 199,
       "shortName": "XG",
-      "name": "Smaller Territories of the UK",
+      "name": "United Kingdom Overseas Territories",
       "phoneCode": 44
     },
     {
@@ -1413,7 +1413,7 @@
     {
       "id": 236,
       "shortName": "VA",
-      "name": "Vatican City State (Holy See)",
+      "name": "Vatican City",
       "phoneCode": 39
     },
     {
