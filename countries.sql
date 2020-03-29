@@ -8,7 +8,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `countries` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `sortname` varchar(3) NOT NULL,
+  `shortname` varchar(3) NOT NULL,
   `name` varchar(150) NOT NULL,
   `phonecode` int(11) NOT NULL,
   PRIMARY KEY (`id`)
@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS `countries` (
 
 
 
-INSERT INTO `countries` (`id`, `sortname`, `name`, `phonecode`) VALUES
+INSERT INTO `countries` (`id`, `shortname`, `name`, `phonecode`) VALUES
 (1, 'AF', 'Afghanistan', 93),
 (2, 'AL', 'Albania', 355),
 (3, 'DZ', 'Algeria', 213),
@@ -260,7 +260,6 @@ INSERT INTO `countries` (`id`, `sortname`, `name`, `phonecode`) VALUES
 (241, 'WF', 'Wallis And Futuna Islands', 681),
 (242, 'EH', 'Western Sahara', 212),
 (243, 'YE', 'Yemen', 967),
-(244, 'YU', 'Yugoslavia', 38),
 (245, 'ZM', 'Zambia', 260),
 (246, 'ZW', 'Zimbabwe', 263);
 
