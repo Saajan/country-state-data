@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.js'),
+      entry: resolve(__dirname, 'src/index.ts'),
       name: 'CountriesStatesDb',
       fileName: (format) => (format === 'cjs' ? 'index.cjs' : 'index.js'),
       formats: ['es', 'cjs'],

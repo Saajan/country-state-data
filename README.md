@@ -29,9 +29,7 @@ console.log(states.length);
 ### ES Modules
 
 ```js
-import pkg from 'countries-states-db';
-
-const { countries, states } = pkg;
+import { countries, states } from 'countries-states-db';
 ```
 
 ## Data Shape
