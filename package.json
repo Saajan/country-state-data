@@ -21,15 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Saajan/countries-states-db.git"
+    "url": "git+https://github.com/Saajan/country-state-data.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Saajan/countries-states-db/issues"
+    "url": "https://github.com/Saajan/country-state-data/issues"
   },
-  "homepage": "https://github.com/Saajan/countries-states-db#readme",
+  "homepage": "https://github.com/Saajan/country-state-data#readme",
   "devDependencies": {
     "vite": "^5.4.8",
     "vitest": "^2.1.8"

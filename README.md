@@ -74,3 +74,7 @@ console.log(indiaStates);
 
 - The dataset is sourced from the repository data files.
 - Minor spelling or data issues may still exist.
+
+## Source
+
+This package was originally forked from [Countries-States-Cities-database](https://github.com/hiiamrohit/Countries-States-Cities-database).
