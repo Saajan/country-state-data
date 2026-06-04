@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import pkg from '../index.js';
+import pkg from '../src/index.js';
 
 const { countries, states } = pkg;
 
