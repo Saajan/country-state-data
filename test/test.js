@@ -1,8 +1,11 @@
 const expect = require('expect.js');
-const { states } = require('../states.json');
-const countries = require('../countries.json');
+const { countries, states } = require('..');
 
 describe('States', function () {
+    it('exports countries and states arrays', function () {
+        expect(countries).to.be.an('array');
+        expect(states).to.be.an('array');
+    });
 
     it('expect states to be an array ', function () {
         expect(states).to.be.an('array');
