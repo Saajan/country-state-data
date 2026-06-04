@@ -1,10 +1,23 @@
 {
   "name": "countries-states-db",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.30.2",
   "description": "*This Free database dose not guarantee for the complete list of world countries and respective states.",
-  "main": "index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "mocha"
+    "build": "vite build",
+    "prepack": "pnpm build",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -18,7 +31,7 @@
   },
   "homepage": "https://github.com/Saajan/countries-states-db#readme",
   "devDependencies": {
-    "expect.js": "^0.3.1",
-    "mocha": "^7.1.1"
+    "vite": "^5.4.8",
+    "vitest": "^2.1.8"
   }
 }
